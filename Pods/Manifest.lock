@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ESPullToRefresh (2.9.3)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (4.8.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya-SwiftyJSONMapper (5.0.0):
+    - Moya-SwiftyJSONMapper/Core (= 5.0.0)
+  - Moya-SwiftyJSONMapper/Core (5.0.0):
+    - Moya (~> 13.0.1)
+    - SwiftyJSON
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjectMapper (3.5.3)
+  - Result (4.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SBCycleScrollView (0.0.8):
+    - Kingfisher (~> 4.8.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESPullToRefresh
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Moya
+  - Moya-SwiftyJSONMapper
+  - ObjectMapper (~> 3.3)
+  - RxCocoa
+  - RxSwift
+  - SBCycleScrollView (~> 0.0.8)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ESPullToRefresh
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - Moya-SwiftyJSONMapper
+    - ObjectMapper
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SBCycleScrollView
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Moya-SwiftyJSONMapper: f542fe5bae49af14dfaeb298995ea052a6cdc550
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SBCycleScrollView: 7bd5afc001dfe8579b21e98582d2b3cf58abfb9a
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: b7fe39e8e4019c0c82fa84e311b3e17c87c586bd
+
+COCOAPODS: 1.8.3

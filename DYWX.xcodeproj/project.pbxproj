@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64EDCCE87F8146010BD30DA2 /* Pods_DYWX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */; };
+		D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F29D256C9EC5004E6B3D /* AppDelegate.swift */; };
+		D414F2A5256C9F07004E6B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D414F2A4256C9F07004E6B3D /* Assets.xcassets */; };
+		D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2AC256CA2C7004E6B3D /* WYTabBarController.swift */; };
+		D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2AF256CA35C004E6B3D /* WYBaseViewController.swift */; };
+		D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2B2256CA3C3004E6B3D /* WYNavigationController.swift */; };
+		D414F2B6256CA422004E6B3D /* WYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2B5256CA422004E6B3D /* WYHomeViewController.swift */; };
+		D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2B9256CA46C004E6B3D /* WYMailViewController.swift */; };
+		D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2BD256CA485004E6B3D /* WYFindViewController.swift */; };
+		D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2C1256CA4B4004E6B3D /* WYMyViewController.swift */; };
+		D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E790256CB32D004899DE /* WYMoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CAC81AFA6A0C6B949756BBA /* Pods-DYWX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.release.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.release.xcconfig"; sourceTree = "<group>"; };
+		D414F264256C995B004E6B3D /* DYWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D414F29D256C9EC5004E6B3D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D414F2A4256C9F07004E6B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D414F2A8256CA00E004E6B3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D414F2AC256CA2C7004E6B3D /* WYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTabBarController.swift; sourceTree = "<group>"; };
+		D414F2AF256CA35C004E6B3D /* WYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseViewController.swift; sourceTree = "<group>"; };
+		D414F2B2256CA3C3004E6B3D /* WYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYNavigationController.swift; sourceTree = "<group>"; };
+		D414F2B5256CA422004E6B3D /* WYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYHomeViewController.swift; sourceTree = "<group>"; };
+		D414F2B9256CA46C004E6B3D /* WYMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMailViewController.swift; sourceTree = "<group>"; };
+		D414F2BD256CA485004E6B3D /* WYFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYFindViewController.swift; sourceTree = "<group>"; };
+		D414F2C1256CA4B4004E6B3D /* WYMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMyViewController.swift; sourceTree = "<group>"; };
+		D434E790256CB32D004899DE /* WYMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMoreViewController.swift; sourceTree = "<group>"; };
+		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D414F261256C995B004E6B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EDCCE87F8146010BD30DA2 /* Pods_DYWX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860BF9643BAAB3FDC1081AD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B277E6369B4F25B780A6FD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */,
+				4CAC81AFA6A0C6B949756BBA /* Pods-DYWX.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D414F25B256C995B004E6B3D = {
+			isa = PBXGroup;
+			children = (
+				D414F266256C995B004E6B3D /* DYWX */,
+				D414F265256C995B004E6B3D /* Products */,
+				B277E6369B4F25B780A6FD06 /* Pods */,
+				860BF9643BAAB3FDC1081AD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D414F265256C995B004E6B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D414F264256C995B004E6B3D /* DYWX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D414F266256C995B004E6B3D /* DYWX */ = {
+			isa = PBXGroup;
+			children = (
+				D414F29C256C9EC5004E6B3D /* AppDelegate */,
+				D414F2A7256CA00E004E6B3D /* Other */,
+				D414F282256C9EBC004E6B3D /* Classes */,
+				D414F2A1256C9EF4004E6B3D /* Tools */,
+				D414F2A0256C9EEA004E6B3D /* Network */,
+				D414F2A2256C9EFD004E6B3D /* WYCustomView */,
+				D414F2A3256C9F07004E6B3D /* Resource */,
+			);
+			path = DYWX;
+			sourceTree = "<group>";
+		};
+		D414F282256C9EBC004E6B3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D414F297256C9EBD004E6B3D /* Main */,
+				D414F283256C9EBC004E6B3D /* Home(微信) */,
+				D414F288256C9EBC004E6B3D /* Mail(通讯录) */,
+				D414F292256C9EBD004E6B3D /* Find(发现) */,
+				D414F28D256C9EBC004E6B3D /* My(我) */,
+				D414F2C5256CA505004E6B3D /* More(更多) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D414F283256C9EBC004E6B3D /* Home(微信) */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2B5256CA422004E6B3D /* WYHomeViewController.swift */,
+				D414F284256C9EBC004E6B3D /* ViewModel */,
+				D414F285256C9EBC004E6B3D /* Controller */,
+				D414F286256C9EBC004E6B3D /* Model */,
+				D414F287256C9EBC004E6B3D /* View */,
+			);
+			path = "Home(微信)";
+			sourceTree = "<group>";
+		};
+		D414F284256C9EBC004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F285256C9EBC004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F286256C9EBC004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F287256C9EBC004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D414F288256C9EBC004E6B3D /* Mail(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2B9256CA46C004E6B3D /* WYMailViewController.swift */,
+				D414F289256C9EBC004E6B3D /* ViewModel */,
+				D414F28A256C9EBC004E6B3D /* Controller */,
+				D414F28B256C9EBC004E6B3D /* Model */,
+				D414F28C256C9EBC004E6B3D /* View */,
+			);
+			path = "Mail(通讯录)";
+			sourceTree = "<group>";
+		};
+		D414F289256C9EBC004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F28A256C9EBC004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F28B256C9EBC004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F28C256C9EBC004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D414F28D256C9EBC004E6B3D /* My(我) */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2C1256CA4B4004E6B3D /* WYMyViewController.swift */,
+				D414F28E256C9EBC004E6B3D /* ViewModel */,
+				D414F28F256C9EBC004E6B3D /* Controller */,
+				D414F290256C9EBC004E6B3D /* Model */,
+				D414F291256C9EBC004E6B3D /* View */,
+			);
+			path = "My(我)";
+			sourceTree = "<group>";
+		};
+		D414F28E256C9EBC004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F28F256C9EBC004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F290256C9EBC004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F291256C9EBC004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D414F292256C9EBD004E6B3D /* Find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2BD256CA485004E6B3D /* WYFindViewController.swift */,
+				D414F293256C9EBD004E6B3D /* ViewModel */,
+				D414F294256C9EBD004E6B3D /* Controller */,
+				D414F295256C9EBD004E6B3D /* Model */,
+				D414F296256C9EBD004E6B3D /* View */,
+			);
+			path = "Find(发现)";
+			sourceTree = "<group>";
+		};
+		D414F293256C9EBD004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F294256C9EBD004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F295256C9EBD004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F296256C9EBD004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D414F297256C9EBD004E6B3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D414F298256C9EBD004E6B3D /* ViewModel */,
+				D414F299256C9EBD004E6B3D /* Controller */,
+				D414F29A256C9EBD004E6B3D /* Model */,
+				D414F29B256C9EBD004E6B3D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D414F298256C9EBD004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F299256C9EBD004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2AC256CA2C7004E6B3D /* WYTabBarController.swift */,
+				D414F2B2256CA3C3004E6B3D /* WYNavigationController.swift */,
+				D414F2AF256CA35C004E6B3D /* WYBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F29A256C9EBD004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F29B256C9EBD004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D414F29C256C9EC5004E6B3D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D414F29D256C9EC5004E6B3D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D414F2A0256C9EEA004E6B3D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D414F2A1256C9EF4004E6B3D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D414F2A2256C9EFD004E6B3D /* WYCustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYCustomView;
+			sourceTree = "<group>";
+		};
+		D414F2A3256C9F07004E6B3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2A4256C9F07004E6B3D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D414F2A7256CA00E004E6B3D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D414F2A8256CA00E004E6B3D /* Info.plist */,
+			);
+			name = Other;
+			path = DYWX/Other;
+			sourceTree = SOURCE_ROOT;
+		};
+		D414F2C5256CA505004E6B3D /* More(更多) */ = {
+			isa = PBXGroup;
+			children = (
+				D434E790256CB32D004899DE /* WYMoreViewController.swift */,
+				D414F2C6256CA505004E6B3D /* ViewModel */,
+				D414F2C7256CA505004E6B3D /* Controller */,
+				D414F2C8256CA505004E6B3D /* Model */,
+				D414F2C9256CA505004E6B3D /* View */,
+			);
+			path = "More(更多)";
+			sourceTree = "<group>";
+		};
+		D414F2C6256CA505004E6B3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D414F2C7256CA505004E6B3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D414F2C8256CA505004E6B3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D414F2C9256CA505004E6B3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D414F263256C995B004E6B3D /* DYWX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D414F278256C995F004E6B3D /* Build configuration list for PBXNativeTarget "DYWX" */;
+			buildPhases = (
+				50C1842282D147AC4360E74B /* [CP] Check Pods Manifest.lock */,
+				D414F260256C995B004E6B3D /* Sources */,
+				D414F261256C995B004E6B3D /* Frameworks */,
+				D414F262256C995B004E6B3D /* Resources */,
+				033361B8FDA3C971DED3C10E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYWX;
+			productName = DYWX;
+			productReference = D414F264256C995B004E6B3D /* DYWX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D414F25C256C995B004E6B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D414F263256C995B004E6B3D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = D414F25F256C995B004E6B3D /* Build configuration list for PBXProject "DYWX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D414F25B256C995B004E6B3D;
+			productRefGroup = D414F265256C995B004E6B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D414F263256C995B004E6B3D /* DYWX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D414F262256C995B004E6B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414F2A5256C9F07004E6B3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033361B8FDA3C971DED3C10E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYWX/Pods-DYWX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYWX/Pods-DYWX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DYWX/Pods-DYWX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C1842282D147AC4360E74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYWX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D414F260256C995B004E6B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */,
+				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
+				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
+				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
+				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
+				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
+				D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */,
+				D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */,
+				D414F2B6256CA422004E6B3D /* WYHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D414F276256C995F004E6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D414F277256C995F004E6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D414F279256C995F004E6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B2Y6DGC8M;
+				INFOPLIST_FILE = DYWX/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.wwpy.dywx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D414F27A256C995F004E6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAC81AFA6A0C6B949756BBA /* Pods-DYWX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B2Y6DGC8M;
+				INFOPLIST_FILE = DYWX/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.wwpy.dywx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D414F25F256C995B004E6B3D /* Build configuration list for PBXProject "DYWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414F276256C995F004E6B3D /* Debug */,
+				D414F277256C995F004E6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D414F278256C995F004E6B3D /* Build configuration list for PBXNativeTarget "DYWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414F279256C995F004E6B3D /* Debug */,
+				D414F27A256C995F004E6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D414F25C256C995B004E6B3D /* Project object */;
+}

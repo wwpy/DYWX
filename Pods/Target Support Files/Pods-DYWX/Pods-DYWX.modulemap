@@ -1,0 +1,6 @@
+framework module Pods_DYWX {
+  umbrella header "Pods-DYWX-umbrella.h"
+
+  export *
+  module * { export * }
+}
