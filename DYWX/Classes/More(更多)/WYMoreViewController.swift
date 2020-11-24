@@ -12,7 +12,17 @@ class WYMoreViewController: WYBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setUpAllView()
     }
 
+}
+
+// NARK:- 设置UI
+extension WYMoreViewController {
+    // 设置UI
+    fileprivate func setUpAllView() {
+        view.addSubview(statusView)
+        // 添加导航栏
+        setUpNavigation()
+    }
 }
