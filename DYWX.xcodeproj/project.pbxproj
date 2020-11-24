@@ -26,6 +26,7 @@
 		D434E7CD256CDFFC004899DE /* WYView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7CC256CDFFC004899DE /* WYView+Extension.swift */; };
 		D434E7D0256CE32D004899DE /* WYBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7CF256CE32D004899DE /* WYBarButtonItem+Extension.swift */; };
 		D434E7D3256CE587004899DE /* WYDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7D2256CE587004899DE /* WYDecoder.swift */; };
+		D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7D5256CEE3C004899DE /* WYImageView+Kingfisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D434E7CC256CDFFC004899DE /* WYView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYView+Extension.swift"; sourceTree = "<group>"; };
 		D434E7CF256CE32D004899DE /* WYBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		D434E7D2256CE587004899DE /* WYDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYDecoder.swift; sourceTree = "<group>"; };
+		D434E7D5256CEE3C004899DE /* WYImageView+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -425,6 +427,7 @@
 				D434E7CC256CDFFC004899DE /* WYView+Extension.swift */,
 				D434E7CF256CE32D004899DE /* WYBarButtonItem+Extension.swift */,
 				D434E7D2256CE587004899DE /* WYDecoder.swift */,
+				D434E7D5256CEE3C004899DE /* WYImageView+Kingfisher.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 				D434E7CD256CDFFC004899DE /* WYView+Extension.swift in Sources */,
 				D434E7D0256CE32D004899DE /* WYBarButtonItem+Extension.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
+				D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */,
 				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
 				D434E7CA256CDF24004899DE /* WYNotificationName.swift in Sources */,
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
