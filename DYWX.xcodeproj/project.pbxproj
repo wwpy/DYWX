@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2BD256CA485004E6B3D /* WYFindViewController.swift */; };
 		D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414F2C1256CA4B4004E6B3D /* WYMyViewController.swift */; };
 		D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E790256CB32D004899DE /* WYMoreViewController.swift */; };
+		D434E7A7256CD694004899DE /* WYCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7A6256CD694004899DE /* WYCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D414F2BD256CA485004E6B3D /* WYFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYFindViewController.swift; sourceTree = "<group>"; };
 		D414F2C1256CA4B4004E6B3D /* WYMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMyViewController.swift; sourceTree = "<group>"; };
 		D434E790256CB32D004899DE /* WYMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMoreViewController.swift; sourceTree = "<group>"; };
+		D434E7A6256CD694004899DE /* WYCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCommon.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +66,6 @@
 				DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */,
 				4CAC81AFA6A0C6B949756BBA /* Pods-DYWX.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -333,6 +334,7 @@
 		D414F2A1256C9EF4004E6B3D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D434E7A6256CD694004899DE /* WYCommon.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -517,6 +519,7 @@
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
 				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
+				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
 				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
 				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
 				D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */,
