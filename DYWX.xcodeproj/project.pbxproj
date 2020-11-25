@@ -30,6 +30,12 @@
 		D434E7D9256CFC70004899DE /* WYProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7D8256CFC70004899DE /* WYProfileViewController.swift */; };
 		D434E7DC256CFF2F004899DE /* WYBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7DB256CFF2F004899DE /* WYBaseTableCell.swift */; };
 		D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7DE256D01EF004899DE /* WYProfileCell.swift */; };
+		D434E7E2256DDD45004899DE /* WYBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7E1256DDD45004899DE /* WYBaseView.swift */; };
+		D434E7E5256DDDF1004899DE /* WYProfileHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7E4256DDDF1004899DE /* WYProfileHeadView.swift */; };
+		D434E7E8256DF7C1004899DE /* WYLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7E7256DF7C1004899DE /* WYLoginView.swift */; };
+		D434E7EB256E0285004899DE /* WYPopLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7EA256E0285004899DE /* WYPopLoginView.swift */; };
+		D434E7EE256E09B6004899DE /* WYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7ED256E09B6004899DE /* WYLoginViewController.swift */; };
+		D434E7F1256E19FC004899DE /* WYRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +64,12 @@
 		D434E7D8256CFC70004899DE /* WYProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYProfileViewController.swift; sourceTree = "<group>"; };
 		D434E7DB256CFF2F004899DE /* WYBaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseTableCell.swift; sourceTree = "<group>"; };
 		D434E7DE256D01EF004899DE /* WYProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYProfileCell.swift; sourceTree = "<group>"; };
+		D434E7E1256DDD45004899DE /* WYBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseView.swift; sourceTree = "<group>"; };
+		D434E7E4256DDDF1004899DE /* WYProfileHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYProfileHeadView.swift; sourceTree = "<group>"; };
+		D434E7E7256DF7C1004899DE /* WYLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLoginView.swift; sourceTree = "<group>"; };
+		D434E7EA256E0285004899DE /* WYPopLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopLoginView.swift; sourceTree = "<group>"; };
+		D434E7ED256E09B6004899DE /* WYLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLoginViewController.swift; sourceTree = "<group>"; };
+		D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRegisterViewController.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -335,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				D434E7DB256CFF2F004899DE /* WYBaseTableCell.swift */,
+				D434E7E1256DDD45004899DE /* WYBaseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -411,6 +424,8 @@
 			isa = PBXGroup;
 			children = (
 				D434E7D8256CFC70004899DE /* WYProfileViewController.swift */,
+				D434E7ED256E09B6004899DE /* WYLoginViewController.swift */,
+				D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -426,6 +441,9 @@
 			isa = PBXGroup;
 			children = (
 				D434E7DE256D01EF004899DE /* WYProfileCell.swift */,
+				D434E7E4256DDDF1004899DE /* WYProfileHeadView.swift */,
+				D434E7E7256DF7C1004899DE /* WYLoginView.swift */,
+				D434E7EA256E0285004899DE /* WYPopLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -565,8 +583,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D434E7EE256E09B6004899DE /* WYLoginViewController.swift in Sources */,
 				D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */,
+				D434E7E5256DDDF1004899DE /* WYProfileHeadView.swift in Sources */,
+				D434E7F1256E19FC004899DE /* WYRegisterViewController.swift in Sources */,
 				D434E7CD256CDFFC004899DE /* WYView+Extension.swift in Sources */,
+				D434E7EB256E0285004899DE /* WYPopLoginView.swift in Sources */,
 				D434E7D0256CE32D004899DE /* WYBarButtonItem+Extension.swift in Sources */,
 				D434E7D9256CFC70004899DE /* WYProfileViewController.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
@@ -580,8 +602,10 @@
 				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
 				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
 				D434E7C7256CDD7F004899DE /* WYDate.swift in Sources */,
+				D434E7E8256DF7C1004899DE /* WYLoginView.swift in Sources */,
 				D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */,
 				D434E7C0256CDA8D004899DE /* WYColor.swift in Sources */,
+				D434E7E2256DDD45004899DE /* WYBaseView.swift in Sources */,
 				D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */,
 				D434E7C4256CDC7C004899DE /* WYFont.swift in Sources */,
 				D434E7D3256CE587004899DE /* WYDecoder.swift in Sources */,

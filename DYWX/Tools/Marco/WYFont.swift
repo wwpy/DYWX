@@ -13,6 +13,6 @@ func FontSize(_ size: CGFloat) -> UIFont {
 }
 
 /// 加粗字体
-func BlodFontSize(_ size: CGFloat) -> UIFont {
+func BoldFontSize(_ size: CGFloat) -> UIFont {
     return UIFont.boldSystemFont(ofSize: AdaptW(size))
 }
