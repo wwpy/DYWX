@@ -40,7 +40,7 @@ class WYBaseViewController: UIViewController {
 
 // MARK:- 配置 NavigationBar
 extension WYBaseViewController {
-    func setUpNavigation() {
+    @objc func setUpNavigation() {
         // 修改状态栏背景颜色
         self.navigationController?.navigationBar.barTintColor = kMainOrangeColor
         self.navigationController?.navigationBar.tintColor = UIColor.white
@@ -51,5 +51,9 @@ extension WYBaseViewController {
     
     @objc func leftItemClick() {
         self.navigationController?.pushViewController(WYProfileViewController(), animated: true)
+    }
+    
+    @objc func rightItemClick() {
+        
     }
 }

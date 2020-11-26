@@ -36,6 +36,13 @@
 		D434E7EB256E0285004899DE /* WYPopLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7EA256E0285004899DE /* WYPopLoginView.swift */; };
 		D434E7EE256E09B6004899DE /* WYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7ED256E09B6004899DE /* WYLoginViewController.swift */; };
 		D434E7F1256E19FC004899DE /* WYRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */; };
+		D434E7F5256E9679004899DE /* WYSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7F4256E9679004899DE /* WYSearchView.swift */; };
+		D434E7FC256EA2A3004899DE /* WYMoreSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E7FB256EA2A3004899DE /* WYMoreSearchView.swift */; };
+		D434E803256F2957004899DE /* WYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E802256F2957004899DE /* WYAlertController.swift */; };
+		D434E807256F316D004899DE /* WYPopupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E806256F316D004899DE /* WYPopupViewDelegate.swift */; };
+		D434E80B256F31D7004899DE /* WYPopupBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E80A256F31D7004899DE /* WYPopupBaseView.swift */; };
+		D434E80E256F3374004899DE /* WYCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E80D256F3374004899DE /* WYCustomView.swift */; };
+		D434E811256F34C4004899DE /* WYPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E810256F34C4004899DE /* WYPopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +77,13 @@
 		D434E7EA256E0285004899DE /* WYPopLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopLoginView.swift; sourceTree = "<group>"; };
 		D434E7ED256E09B6004899DE /* WYLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLoginViewController.swift; sourceTree = "<group>"; };
 		D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRegisterViewController.swift; sourceTree = "<group>"; };
+		D434E7F4256E9679004899DE /* WYSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYSearchView.swift; sourceTree = "<group>"; };
+		D434E7FB256EA2A3004899DE /* WYMoreSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMoreSearchView.swift; sourceTree = "<group>"; };
+		D434E802256F2957004899DE /* WYAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYAlertController.swift; sourceTree = "<group>"; };
+		D434E806256F316D004899DE /* WYPopupViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupViewDelegate.swift; sourceTree = "<group>"; };
+		D434E80A256F31D7004899DE /* WYPopupBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupBaseView.swift; sourceTree = "<group>"; };
+		D434E80D256F3374004899DE /* WYCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCustomView.swift; sourceTree = "<group>"; };
+		D434E810256F34C4004899DE /* WYPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupView.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				D414F297256C9EBD004E6B3D /* Main */,
+				D434E7F7256E96C4004899DE /* Common */,
 				D414F283256C9EBC004E6B3D /* Home(微信) */,
 				D414F288256C9EBC004E6B3D /* Mail(通讯录) */,
 				D414F292256C9EBD004E6B3D /* Find(发现) */,
@@ -380,6 +395,9 @@
 		D414F2A2256C9EFD004E6B3D /* WYCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				D434E801256F2927004899DE /* WYPopupView */,
+				D434E7FF256F2927004899DE /* WYCarouselView */,
+				D434E800256F2927004899DE /* WYPageView */,
 			);
 			path = WYCustomView;
 			sourceTree = "<group>";
@@ -409,6 +427,7 @@
 				D414F2C7256CA505004E6B3D /* Controller */,
 				D414F2C8256CA505004E6B3D /* Model */,
 				D414F2C9256CA505004E6B3D /* View */,
+				D434E7FA256EA25E004899DE /* Common */,
 			);
 			path = "More(更多)";
 			sourceTree = "<group>";
@@ -470,6 +489,57 @@
 			name = Marco;
 			path = DYWX/Tools/Marco;
 			sourceTree = SOURCE_ROOT;
+		};
+		D434E7F7256E96C4004899DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D434E7F8256E96C4004899DE /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D434E7F8256E96C4004899DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D434E7F4256E9679004899DE /* WYSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D434E7FA256EA25E004899DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D434E7FB256EA2A3004899DE /* WYMoreSearchView.swift */,
+			);
+			name = Common;
+			path = "DYWX/Classes/More(更多)/Common";
+			sourceTree = SOURCE_ROOT;
+		};
+		D434E7FF256F2927004899DE /* WYCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYCarouselView;
+			sourceTree = "<group>";
+		};
+		D434E800256F2927004899DE /* WYPageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYPageView;
+			sourceTree = "<group>";
+		};
+		D434E801256F2927004899DE /* WYPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				D434E802256F2957004899DE /* WYAlertController.swift */,
+				D434E806256F316D004899DE /* WYPopupViewDelegate.swift */,
+				D434E80A256F31D7004899DE /* WYPopupBaseView.swift */,
+				D434E80D256F3374004899DE /* WYCustomView.swift */,
+				D434E810256F34C4004899DE /* WYPopupView.swift */,
+			);
+			path = WYPopupView;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -585,14 +655,19 @@
 			files = (
 				D434E7EE256E09B6004899DE /* WYLoginViewController.swift in Sources */,
 				D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */,
+				D434E7F5256E9679004899DE /* WYSearchView.swift in Sources */,
+				D434E7FC256EA2A3004899DE /* WYMoreSearchView.swift in Sources */,
 				D434E7E5256DDDF1004899DE /* WYProfileHeadView.swift in Sources */,
 				D434E7F1256E19FC004899DE /* WYRegisterViewController.swift in Sources */,
 				D434E7CD256CDFFC004899DE /* WYView+Extension.swift in Sources */,
 				D434E7EB256E0285004899DE /* WYPopLoginView.swift in Sources */,
 				D434E7D0256CE32D004899DE /* WYBarButtonItem+Extension.swift in Sources */,
 				D434E7D9256CFC70004899DE /* WYProfileViewController.swift in Sources */,
+				D434E80B256F31D7004899DE /* WYPopupBaseView.swift in Sources */,
+				D434E811256F34C4004899DE /* WYPopupView.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
 				D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */,
+				D434E80E256F3374004899DE /* WYCustomView.swift in Sources */,
 				D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */,
 				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
 				D434E7DC256CFF2F004899DE /* WYBaseTableCell.swift in Sources */,
@@ -600,6 +675,7 @@
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
 				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
 				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
+				D434E807256F316D004899DE /* WYPopupViewDelegate.swift in Sources */,
 				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
 				D434E7C7256CDD7F004899DE /* WYDate.swift in Sources */,
 				D434E7E8256DF7C1004899DE /* WYLoginView.swift in Sources */,
@@ -609,6 +685,7 @@
 				D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */,
 				D434E7C4256CDC7C004899DE /* WYFont.swift in Sources */,
 				D434E7D3256CE587004899DE /* WYDecoder.swift in Sources */,
+				D434E803256F2957004899DE /* WYAlertController.swift in Sources */,
 				D414F2B6256CA422004E6B3D /* WYHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,6 @@ class WYTabBarController: UITabBarController {
         setUpChilds()
         // 设置图片和文字选中时的颜色 必须设置（系统默认选中蓝色）
         self.tabBar.tintColor = UIColor.green
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -29,7 +28,7 @@ class WYTabBarController: UITabBarController {
             if #available(iOS 10.0, *) {
                 tabBar.items![0].badgeColor = UIColor.red
             } else {
-                
+                // todo:
             }
         }
     }
