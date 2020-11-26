@@ -43,6 +43,7 @@
 		D434E80B256F31D7004899DE /* WYPopupBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E80A256F31D7004899DE /* WYPopupBaseView.swift */; };
 		D434E80E256F3374004899DE /* WYCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E80D256F3374004899DE /* WYCustomView.swift */; };
 		D434E811256F34C4004899DE /* WYPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E810256F34C4004899DE /* WYPopupView.swift */; };
+		D434E825256F54F9004899DE /* WYString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E824256F54F9004899DE /* WYString+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		D434E80A256F31D7004899DE /* WYPopupBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupBaseView.swift; sourceTree = "<group>"; };
 		D434E80D256F3374004899DE /* WYCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCustomView.swift; sourceTree = "<group>"; };
 		D434E810256F34C4004899DE /* WYPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupView.swift; sourceTree = "<group>"; };
+		D434E824256F54F9004899DE /* WYString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYString+Extension.swift"; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -385,8 +387,8 @@
 		D414F2A1256C9EF4004E6B3D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				D434E7BE256CD9BD004899DE /* Marco */,
 				D434E7BD256CD9B3004899DE /* Extension */,
+				D434E7BE256CD9BD004899DE /* Marco */,
 				D434E7A6256CD694004899DE /* WYCommon.swift */,
 			);
 			path = Tools;
@@ -474,6 +476,7 @@
 				D434E7CF256CE32D004899DE /* WYBarButtonItem+Extension.swift */,
 				D434E7D2256CE587004899DE /* WYDecoder.swift */,
 				D434E7D5256CEE3C004899DE /* WYImageView+Kingfisher.swift */,
+				D434E824256F54F9004899DE /* WYString+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -671,6 +674,7 @@
 				D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */,
 				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
 				D434E7DC256CFF2F004899DE /* WYBaseTableCell.swift in Sources */,
+				D434E825256F54F9004899DE /* WYString+Extension.swift in Sources */,
 				D434E7CA256CDF24004899DE /* WYNotificationName.swift in Sources */,
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
 				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
