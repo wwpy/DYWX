@@ -9,6 +9,7 @@ import UIKit
 
 class WYTabBarController: UITabBarController {
 
+    // MARK:- 系统函数
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,11 +26,7 @@ class WYTabBarController: UITabBarController {
         
         if tabBar.items![0].title == "微信" {
             tabBar.items![0].badgeValue = "3"
-            if #available(iOS 10.0, *) {
-                tabBar.items![0].badgeColor = UIColor.red
-            } else {
-                // todo:
-            }
+            tabBar.items![0].badgeColor = UIColor.red
         }
     }
 
