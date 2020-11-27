@@ -45,6 +45,9 @@
 		D434E811256F34C4004899DE /* WYPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E810256F34C4004899DE /* WYPopupView.swift */; };
 		D434E825256F54F9004899DE /* WYString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E824256F54F9004899DE /* WYString+Extension.swift */; };
 		D434E82A256FBA43004899DE /* WYHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E829256FBA43004899DE /* WYHomeCell.swift */; };
+		D434E82D2570A06B004899DE /* WYBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E82C2570A06B004899DE /* WYBaseCollectionCell.swift */; };
+		D434E8302570A1F2004899DE /* WYNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E82F2570A1F2004899DE /* WYNavigationBar.swift */; };
+		D434E8332570A357004899DE /* WYRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E8322570A357004899DE /* WYRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +91,9 @@
 		D434E810256F34C4004899DE /* WYPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPopupView.swift; sourceTree = "<group>"; };
 		D434E824256F54F9004899DE /* WYString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYString+Extension.swift"; sourceTree = "<group>"; };
 		D434E829256FBA43004899DE /* WYHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYHomeCell.swift; sourceTree = "<group>"; };
+		D434E82C2570A06B004899DE /* WYBaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseCollectionCell.swift; sourceTree = "<group>"; };
+		D434E82F2570A1F2004899DE /* WYNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYNavigationBar.swift; sourceTree = "<group>"; };
+		D434E8322570A357004899DE /* WYRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRefreshView.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -368,6 +374,9 @@
 			children = (
 				D434E7DB256CFF2F004899DE /* WYBaseTableCell.swift */,
 				D434E7E1256DDD45004899DE /* WYBaseView.swift */,
+				D434E82C2570A06B004899DE /* WYBaseCollectionCell.swift */,
+				D434E82F2570A1F2004899DE /* WYNavigationBar.swift */,
+				D434E8322570A357004899DE /* WYRefreshView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -659,6 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D434E82D2570A06B004899DE /* WYBaseCollectionCell.swift in Sources */,
 				D434E7EE256E09B6004899DE /* WYLoginViewController.swift in Sources */,
 				D434E791256CB32D004899DE /* WYMoreViewController.swift in Sources */,
 				D434E7F5256E9679004899DE /* WYSearchView.swift in Sources */,
@@ -673,11 +683,13 @@
 				D434E811256F34C4004899DE /* WYPopupView.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
 				D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */,
+				D434E8302570A1F2004899DE /* WYNavigationBar.swift in Sources */,
 				D434E80E256F3374004899DE /* WYCustomView.swift in Sources */,
 				D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */,
 				D414F2B0256CA35C004E6B3D /* WYBaseViewController.swift in Sources */,
 				D434E7DC256CFF2F004899DE /* WYBaseTableCell.swift in Sources */,
 				D434E825256F54F9004899DE /* WYString+Extension.swift in Sources */,
+				D434E8332570A357004899DE /* WYRefreshView.swift in Sources */,
 				D434E7CA256CDF24004899DE /* WYNotificationName.swift in Sources */,
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
 				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
