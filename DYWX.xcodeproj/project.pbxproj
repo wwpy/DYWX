@@ -48,6 +48,10 @@
 		D434E82D2570A06B004899DE /* WYBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E82C2570A06B004899DE /* WYBaseCollectionCell.swift */; };
 		D434E8302570A1F2004899DE /* WYNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E82F2570A1F2004899DE /* WYNavigationBar.swift */; };
 		D434E8332570A357004899DE /* WYRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434E8322570A357004899DE /* WYRefreshView.swift */; };
+		D45394932572F09A00BC5971 /* WYPageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45394922572F09A00BC5971 /* WYPageOptions.swift */; };
+		D45394962572F48900BC5971 /* WYCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45394952572F48900BC5971 /* WYCarouselView.swift */; };
+		D45394992572F6B700BC5971 /* WYBaseCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45394982572F6B700BC5971 /* WYBaseCarouselCell.swift */; };
+		D48877172574916F002AF540 /* WYCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48877162574916F002AF540 /* WYCarouselCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +98,10 @@
 		D434E82C2570A06B004899DE /* WYBaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseCollectionCell.swift; sourceTree = "<group>"; };
 		D434E82F2570A1F2004899DE /* WYNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYNavigationBar.swift; sourceTree = "<group>"; };
 		D434E8322570A357004899DE /* WYRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRefreshView.swift; sourceTree = "<group>"; };
+		D45394922572F09A00BC5971 /* WYPageOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPageOptions.swift; sourceTree = "<group>"; };
+		D45394952572F48900BC5971 /* WYCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCarouselView.swift; sourceTree = "<group>"; };
+		D45394982572F6B700BC5971 /* WYBaseCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseCarouselCell.swift; sourceTree = "<group>"; };
+		D48877162574916F002AF540 /* WYCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCarouselCell.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -533,6 +541,9 @@
 		D434E7FF256F2927004899DE /* WYCarouselView */ = {
 			isa = PBXGroup;
 			children = (
+				D45394952572F48900BC5971 /* WYCarouselView.swift */,
+				D45394982572F6B700BC5971 /* WYBaseCarouselCell.swift */,
+				D48877162574916F002AF540 /* WYCarouselCell.swift */,
 			);
 			path = WYCarouselView;
 			sourceTree = "<group>";
@@ -540,6 +551,7 @@
 		D434E800256F2927004899DE /* WYPageView */ = {
 			isa = PBXGroup;
 			children = (
+				D45394922572F09A00BC5971 /* WYPageOptions.swift */,
 			);
 			path = WYPageView;
 			sourceTree = "<group>";
@@ -683,6 +695,7 @@
 				D434E811256F34C4004899DE /* WYPopupView.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
 				D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */,
+				D45394932572F09A00BC5971 /* WYPageOptions.swift in Sources */,
 				D434E8302570A1F2004899DE /* WYNavigationBar.swift in Sources */,
 				D434E80E256F3374004899DE /* WYCustomView.swift in Sources */,
 				D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */,
@@ -694,12 +707,15 @@
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
 				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
 				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
+				D48877172574916F002AF540 /* WYCarouselCell.swift in Sources */,
+				D45394992572F6B700BC5971 /* WYBaseCarouselCell.swift in Sources */,
 				D434E807256F316D004899DE /* WYPopupViewDelegate.swift in Sources */,
 				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
 				D434E7C7256CDD7F004899DE /* WYDate.swift in Sources */,
 				D434E7E8256DF7C1004899DE /* WYLoginView.swift in Sources */,
 				D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */,
 				D434E7C0256CDA8D004899DE /* WYColor.swift in Sources */,
+				D45394962572F48900BC5971 /* WYCarouselView.swift in Sources */,
 				D434E7E2256DDD45004899DE /* WYBaseView.swift in Sources */,
 				D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */,
 				D434E7C4256CDC7C004899DE /* WYFont.swift in Sources */,

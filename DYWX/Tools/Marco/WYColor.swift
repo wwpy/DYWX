@@ -40,6 +40,7 @@ let kLowGrayColor : UIColor = colorWithRGBA(150, 150, 150, 1.0)
 
 // 背景灰色
 let kBGGrayColor: UIColor = colorWithRGBA(247, 247, 247, 1.0)
+
 func colorValue(_ value: CGFloat) -> CGFloat {
     return value / 255.0
 }

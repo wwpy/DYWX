@@ -21,13 +21,6 @@ class WYTabBarController: UITabBarController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-//        guard tabBar.items!.count > 0 else { return }
-//        
-//        if tabBar.items![0].title == "微信" {
-//            tabBar.items![0].badgeValue = "3"
-//            tabBar.items![0].badgeColor = UIColor.red
-//        }
     }
 
 }

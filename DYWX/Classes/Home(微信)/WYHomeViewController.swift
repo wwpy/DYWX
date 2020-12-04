@@ -18,6 +18,7 @@ class WYHomeViewController: WYBaseViewController {
         
         return searchView
     }()
+    // 消息table
     private lazy var mainTable: UITableView = {
         let mainTable = UITableView(frame: CGRect.zero, style: .grouped)
         mainTable.delegate = self
