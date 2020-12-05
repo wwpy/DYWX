@@ -47,6 +47,18 @@ extension WYBaseViewController {
         
         // 左边按钮
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "btn_user_normal"), style: .done, target: self, action: #selector(self.leftItemClick))
+        // 右边的按钮
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "viewHistoryIcon"), style: .done, target: self, action: #selector(self.rightItemClick))
+        
+        let searchView = WYMoreSearchView()
+        searchView.layer.cornerRadius = 5
+        searchView.backgroundColor = kSearchBGColor
+        navigationItem.titleView = searchView
+        searchView.snp.makeConstraints { (make) in
+            make.center.equalTo((navigationItem.titleView?.snp.center)!)
+            make.width.equalTo((AdaptW(230)))
+            make.height.equalTo(33)
+        }
     }
     
     @objc func leftItemClick() {
@@ -54,6 +66,10 @@ extension WYBaseViewController {
     }
     
     @objc func rightItemClick() {
+        // WYPopupView 自定义视图
+        let customView = WYCustomView.init(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+        let popView = WYPopupView(size: CGSize(width: 250, height: 200), customView: customView, style: .WYPopTransition)
         
+        popView.wy_showPopView()
     }
 }

@@ -6,10 +6,10 @@
 //
 
 import UIKit
-import RxSwift
+//import RxSwift
 
 class WYLoginViewController: WYBaseViewController {
-    private lazy var bag: DisposeBag = DisposeBag()
+//    private lazy var bag: DisposeBag = DisposeBag()
     private lazy var loginView: WYLoginView = {
         let loginView = WYLoginView(frame: CGRect.zero, viewType: WYLoginType.WYLogin)
         return loginView

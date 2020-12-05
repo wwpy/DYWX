@@ -52,6 +52,17 @@
 		D45394962572F48900BC5971 /* WYCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45394952572F48900BC5971 /* WYCarouselView.swift */; };
 		D45394992572F6B700BC5971 /* WYBaseCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45394982572F6B700BC5971 /* WYBaseCarouselCell.swift */; };
 		D48877172574916F002AF540 /* WYCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48877162574916F002AF540 /* WYCarouselCell.swift */; };
+		D4CF3D2D2579EADB003C730C /* WYBasePageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D2C2579EADB003C730C /* WYBasePageControlCell.swift */; };
+		D4CF3D302579EB39003C730C /* WYPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D2F2579EB39003C730C /* WYPageContentView.swift */; };
+		D4CF3D36257A0B1D003C730C /* WYClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D35257A0B1D003C730C /* WYClassifyViewController.swift */; };
+		D4CF3D39257A0B90003C730C /* WYRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D38257A0B90003C730C /* WYRecommendViewController.swift */; };
+		D4CF3D3C257A0BBD003C730C /* WYAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D3B257A0BBD003C730C /* WYAllViewController.swift */; };
+		D4CF3D3F257A0BE3003C730C /* WYLOLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D3E257A0BE3003C730C /* WYLOLViewController.swift */; };
+		D4CF3D42257A0C08003C730C /* WYDQSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D41257A0C08003C730C /* WYDQSViewController.swift */; };
+		D4CF3D45257A0C3E003C730C /* WYWZRYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D44257A0C3E003C730C /* WYWZRYViewController.swift */; };
+		D4CF3D48257A0C7A003C730C /* WYQQCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D47257A0C7A003C730C /* WYQQCarViewController.swift */; };
+		D4CF3D4B257A0CA6003C730C /* WYHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D4A257A0CA6003C730C /* WYHistoryViewController.swift */; };
+		D4CF3D4E257A1E4F003C730C /* WYPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3D4D257A1E4F003C730C /* WYPageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +113,17 @@
 		D45394952572F48900BC5971 /* WYCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCarouselView.swift; sourceTree = "<group>"; };
 		D45394982572F6B700BC5971 /* WYBaseCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBaseCarouselCell.swift; sourceTree = "<group>"; };
 		D48877162574916F002AF540 /* WYCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCarouselCell.swift; sourceTree = "<group>"; };
+		D4CF3D2C2579EADB003C730C /* WYBasePageControlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYBasePageControlCell.swift; sourceTree = "<group>"; };
+		D4CF3D2F2579EB39003C730C /* WYPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPageContentView.swift; sourceTree = "<group>"; };
+		D4CF3D35257A0B1D003C730C /* WYClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYClassifyViewController.swift; sourceTree = "<group>"; };
+		D4CF3D38257A0B90003C730C /* WYRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRecommendViewController.swift; sourceTree = "<group>"; };
+		D4CF3D3B257A0BBD003C730C /* WYAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYAllViewController.swift; sourceTree = "<group>"; };
+		D4CF3D3E257A0BE3003C730C /* WYLOLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLOLViewController.swift; sourceTree = "<group>"; };
+		D4CF3D41257A0C08003C730C /* WYDQSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYDQSViewController.swift; sourceTree = "<group>"; };
+		D4CF3D44257A0C3E003C730C /* WYWZRYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYWZRYViewController.swift; sourceTree = "<group>"; };
+		D4CF3D47257A0C7A003C730C /* WYQQCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYQQCarViewController.swift; sourceTree = "<group>"; };
+		D4CF3D4A257A0CA6003C730C /* WYHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYHistoryViewController.swift; sourceTree = "<group>"; };
+		D4CF3D4D257A1E4F003C730C /* WYPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPageTitleView.swift; sourceTree = "<group>"; };
 		DA00FD00651E5D41E969AD0B /* Pods_DYWX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC34FF8E6B06A85466219D48 /* Pods-DYWX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWX.debug.xcconfig"; path = "Target Support Files/Pods-DYWX/Pods-DYWX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -464,6 +486,7 @@
 		D414F2C7256CA505004E6B3D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF3D34257A0AEB003C730C /* Home */,
 				D434E7D8256CFC70004899DE /* WYProfileViewController.swift */,
 				D434E7ED256E09B6004899DE /* WYLoginViewController.swift */,
 				D434E7F0256E19FC004899DE /* WYRegisterViewController.swift */,
@@ -551,7 +574,10 @@
 		D434E800256F2927004899DE /* WYPageView */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF3D2F2579EB39003C730C /* WYPageContentView.swift */,
 				D45394922572F09A00BC5971 /* WYPageOptions.swift */,
+				D4CF3D2C2579EADB003C730C /* WYBasePageControlCell.swift */,
+				D4CF3D4D257A1E4F003C730C /* WYPageTitleView.swift */,
 			);
 			path = WYPageView;
 			sourceTree = "<group>";
@@ -566,6 +592,21 @@
 				D434E810256F34C4004899DE /* WYPopupView.swift */,
 			);
 			path = WYPopupView;
+			sourceTree = "<group>";
+		};
+		D4CF3D34257A0AEB003C730C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF3D35257A0B1D003C730C /* WYClassifyViewController.swift */,
+				D4CF3D38257A0B90003C730C /* WYRecommendViewController.swift */,
+				D4CF3D3B257A0BBD003C730C /* WYAllViewController.swift */,
+				D4CF3D3E257A0BE3003C730C /* WYLOLViewController.swift */,
+				D4CF3D41257A0C08003C730C /* WYDQSViewController.swift */,
+				D4CF3D44257A0C3E003C730C /* WYWZRYViewController.swift */,
+				D4CF3D47257A0C7A003C730C /* WYQQCarViewController.swift */,
+				D4CF3D4A257A0CA6003C730C /* WYHistoryViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,10 +733,14 @@
 				D434E7D0256CE32D004899DE /* WYBarButtonItem+Extension.swift in Sources */,
 				D434E7D9256CFC70004899DE /* WYProfileViewController.swift in Sources */,
 				D434E80B256F31D7004899DE /* WYPopupBaseView.swift in Sources */,
+				D4CF3D3C257A0BBD003C730C /* WYAllViewController.swift in Sources */,
+				D4CF3D48257A0C7A003C730C /* WYQQCarViewController.swift in Sources */,
 				D434E811256F34C4004899DE /* WYPopupView.swift in Sources */,
+				D4CF3D4B257A0CA6003C730C /* WYHistoryViewController.swift in Sources */,
 				D414F2C2256CA4B4004E6B3D /* WYMyViewController.swift in Sources */,
 				D434E7D6256CEE3C004899DE /* WYImageView+Kingfisher.swift in Sources */,
 				D45394932572F09A00BC5971 /* WYPageOptions.swift in Sources */,
+				D4CF3D45257A0C3E003C730C /* WYWZRYViewController.swift in Sources */,
 				D434E8302570A1F2004899DE /* WYNavigationBar.swift in Sources */,
 				D434E80E256F3374004899DE /* WYCustomView.swift in Sources */,
 				D434E7DF256D01EF004899DE /* WYProfileCell.swift in Sources */,
@@ -703,14 +748,17 @@
 				D434E7DC256CFF2F004899DE /* WYBaseTableCell.swift in Sources */,
 				D434E825256F54F9004899DE /* WYString+Extension.swift in Sources */,
 				D434E8332570A357004899DE /* WYRefreshView.swift in Sources */,
+				D4CF3D2D2579EADB003C730C /* WYBasePageControlCell.swift in Sources */,
 				D434E7CA256CDF24004899DE /* WYNotificationName.swift in Sources */,
 				D414F29E256C9EC5004E6B3D /* AppDelegate.swift in Sources */,
 				D434E7A7256CD694004899DE /* WYCommon.swift in Sources */,
 				D414F2AD256CA2C7004E6B3D /* WYTabBarController.swift in Sources */,
 				D48877172574916F002AF540 /* WYCarouselCell.swift in Sources */,
 				D45394992572F6B700BC5971 /* WYBaseCarouselCell.swift in Sources */,
+				D4CF3D36257A0B1D003C730C /* WYClassifyViewController.swift in Sources */,
 				D434E807256F316D004899DE /* WYPopupViewDelegate.swift in Sources */,
 				D414F2BE256CA485004E6B3D /* WYFindViewController.swift in Sources */,
+				D4CF3D39257A0B90003C730C /* WYRecommendViewController.swift in Sources */,
 				D434E7C7256CDD7F004899DE /* WYDate.swift in Sources */,
 				D434E7E8256DF7C1004899DE /* WYLoginView.swift in Sources */,
 				D414F2BA256CA46C004E6B3D /* WYMailViewController.swift in Sources */,
@@ -719,10 +767,14 @@
 				D434E7E2256DDD45004899DE /* WYBaseView.swift in Sources */,
 				D414F2B3256CA3C3004E6B3D /* WYNavigationController.swift in Sources */,
 				D434E7C4256CDC7C004899DE /* WYFont.swift in Sources */,
+				D4CF3D3F257A0BE3003C730C /* WYLOLViewController.swift in Sources */,
 				D434E82A256FBA43004899DE /* WYHomeCell.swift in Sources */,
+				D4CF3D4E257A1E4F003C730C /* WYPageTitleView.swift in Sources */,
 				D434E7D3256CE587004899DE /* WYDecoder.swift in Sources */,
+				D4CF3D302579EB39003C730C /* WYPageContentView.swift in Sources */,
 				D434E803256F2957004899DE /* WYAlertController.swift in Sources */,
 				D414F2B6256CA422004E6B3D /* WYHomeViewController.swift in Sources */,
+				D4CF3D42257A0C08003C730C /* WYDQSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

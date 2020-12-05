@@ -19,7 +19,7 @@ public class WYPageOptions {
     // 是否允许标题滚动
     public var isTitleScrollEnable: Bool = true
     // 底部滚动线的高度
-    public var kBottomLineHeight: CGFloat = 3
+    public var kBotLineHeight: CGFloat = 3
     // 默认字体的Font大小
     public var kTitleFontSize: CGFloat = 13
     // 默认文字是否加粗

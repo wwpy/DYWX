@@ -35,7 +35,7 @@ public enum WYPageControlStyle {
     ///   - contentView: CollectionView
     ///   - indexPath:  索引 indexPath
     /// - Returns:  继承ZJBaseCarouselCell的cell
-    @objc func wy_carouseViewDataScoure(collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> WYBaseCarouseCell
+    @objc func wy_carouseViewDataScoure(collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> WYBaseCarouselCell
 }
 
 class WYCarouselView: UIView {
@@ -129,7 +129,7 @@ class WYCarouselView: UIView {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.scrollsToTop = false
-        collectionView.register(WYBaseCarouseCell.self, forCellWithReuseIdentifier: WYBaseCarouseCell.identifier())
+        collectionView.register(WYBaseCarouselCell.self, forCellWithReuseIdentifier: WYBaseCarouselCell.identifier())
         collectionView.register(WYCarouselCell.self, forCellWithReuseIdentifier: kIdentifier)
         
         return collectionView
@@ -152,7 +152,7 @@ class WYCarouselView: UIView {
     /// pageControlCurrentPageColor 滚动到的索引点颜色
     var pageControlCurrentPageColor: UIColor = UIColor.red
     /// pageControlPosition
-    var pageControlPosition: ZJPageControlPosition = .center
+    var pageControlPosition: WYPageControlPosition = .center
     /// 默认图片
     var pageControlNormalImage: UIImage? = nil
     /// 滚到到的图片
@@ -204,13 +204,18 @@ extension WYCarouselView : UICollectionViewDelegate,UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if dataSource != nil {
-            // 自定义数据源协议
-            guard datas.count > 0 else {
-                let item = collectionView.dequeueReusableCell(withReuseIdentifier: WYBaseCarouselCell.identifier(), for: indexPath)
-                return item
-            }
-        }
+//        if dataSource != nil {
+//            // 自定义数据源协议
+//            guard datas.count > 0 else {
+//                let item = collectionView.dequeueReusableCell(withReuseIdentifier: WYBaseCarouselCell.identifier(), for: indexPath)
+//                return item
+//            }
+//        }
+        let item = collectionView.dequeueReusableCell(withReuseIdentifier: kIdentifier, for: indexPath) as! WYCarouselCell
+        // 获取当前索引
+//        let itemIndex = pageControlIndex
+        
+        return item
     }
     
     
