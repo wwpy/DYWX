@@ -29,7 +29,7 @@ class WYTabBarController: UITabBarController {
 extension WYTabBarController {
     /// 添加所有子控制器
     private func setUpChilds() {
-        setUpChild(WYHomeViewController(), "微信", "index", "index-select")
+        setUpChild(WYHomeViewController(), "消息", "index", "index-select")
         setUpChild(WYMailViewController(), "通讯录", "mail", "mail-select")
         setUpChild(WYFindViewController(), "发现", "find", "find-select")
         setUpChild(WYMyViewController(), "我", "my", "my-select")

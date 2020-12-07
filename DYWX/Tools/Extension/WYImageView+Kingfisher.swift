@@ -45,11 +45,9 @@ extension UIImageView {
         kf.setImage(with: url, placeholder: placeholder, options: [.backgroundDecode], progressBlock: { (receivedSize, totalSize) in
             
             progresseCellBack?(receivedSize,totalSize)
-        
         }, completionHandler: { (_ image: Image?, _ error: NSError?, _ cacheType: CacheType, _ imageURL: URL?) in
         
             completionHandler?(image, error, cacheType, imageURL)
-        
         })
         
     }

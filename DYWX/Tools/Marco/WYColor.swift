@@ -8,12 +8,16 @@
 import UIKit
 
 let kWhite       = UIColor.white
+let kBlack       = UIColor.black
 let kRed         = UIColor.red
 let kOrange      = UIColor.orange
-let kBlack       = UIColor.black
+let kYellow      = UIColor.yellow
 let kGreen       = UIColor.green
-let kPurple      = UIColor.purple
 let kBlue        = UIColor.blue
+let kPurple      = UIColor.purple
+let kDarkGray    = UIColor.darkGray
+let kLightGray   = UIColor.lightGray
+
 
 // 主颜色 MainOrange
 let kMainOrangeColor = UIColor(red: colorValue(238.0), green:colorValue(120.0), blue: colorValue(59), alpha: 1.0)
@@ -41,6 +45,7 @@ let kLowGrayColor : UIColor = colorWithRGBA(150, 150, 150, 1.0)
 // 背景灰色
 let kBGGrayColor: UIColor = colorWithRGBA(247, 247, 247, 1.0)
 
+// 颜色值
 func colorValue(_ value: CGFloat) -> CGFloat {
     return value / 255.0
 }

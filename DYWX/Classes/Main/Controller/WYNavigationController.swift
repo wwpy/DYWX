@@ -9,9 +9,10 @@ import UIKit
 
 class WYNavigationController: UINavigationController {
 
+    // MARK:- 系统函数
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // 导航栏是否是半透明
         navigationBar.isTranslucent = false
     }
     
